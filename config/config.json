@@ -1,0 +1,17 @@
+{
+    "model": {
+        "name": "SimpleCNN",
+        "dropout_rate": 0.5,
+        "input_channels": 1,
+        "num_classes": 10
+    },
+    "training": {
+        "epochs": 20,
+        "learning_rate": 0.001,
+        "batch_size": 64,
+        "weight_decay": 1e-5,
+        "patience": 5
+    },
+    "device": "cuda",
+    "random_seed": 42
+} 
